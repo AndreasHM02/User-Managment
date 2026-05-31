@@ -1,0 +1,47 @@
+2026-05-07 04:25:57.555 +02:00 [INF] User profile is available. Using 'C:\Users\andre\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-05-07 04:25:57.733 +02:00 [INF] Now listening on: http://localhost:5036
+2026-05-07 04:25:57.736 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-07 04:25:57.738 +02:00 [INF] Hosting environment: Development
+2026-05-07 04:25:57.739 +02:00 [INF] Content root path: C:\Users\andre\Documents\User Managment\ApiApp
+2026-05-07 04:26:06.558 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5036/ - null null
+2026-05-07 04:26:06.626 +02:00 [INF] HTTP GET / responded 404 in 27.9106 ms
+2026-05-07 04:26:06.641 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5036/ - 404 0 null 83.8234ms
+2026-05-07 04:26:06.651 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5036/, Response status code: 404
+2026-05-07 04:26:14.033 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5036/swagger - null null
+2026-05-07 04:26:14.046 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5036/swagger - 301 0 null 13.2722ms
+2026-05-07 04:26:14.059 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5036/swagger/index.html - null null
+2026-05-07 04:26:14.112 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5036/swagger/index.html - 304 null null 52.8727ms
+2026-05-07 04:26:14.139 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5036/swagger/swagger-ui.css - null null
+2026-05-07 04:26:14.148 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5036/swagger/index.css - null null
+2026-05-07 04:26:14.155 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5036/swagger/swagger-ui.css - 304 null null 16.1123ms
+2026-05-07 04:26:14.148 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5036/swagger/swagger-ui-standalone-preset.js - null null
+2026-05-07 04:26:14.149 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5036/swagger/swagger-ui-bundle.js - null null
+2026-05-07 04:26:14.148 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5036/swagger/index.js - null null
+2026-05-07 04:26:14.156 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5036/swagger/index.css - 304 null null 8.0166ms
+2026-05-07 04:26:14.180 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5036/swagger/swagger-ui-standalone-preset.js - 304 null null 31.3739ms
+2026-05-07 04:26:14.194 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5036/swagger/swagger-ui-bundle.js - 304 null null 44.6187ms
+2026-05-07 04:26:14.205 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5036/swagger/index.js - 304 null null 54.9131ms
+2026-05-07 04:26:14.884 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5036/swagger/v1/swagger.json - null null
+2026-05-07 04:26:14.910 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5036/swagger/favicon-32x32.png - null null
+2026-05-07 04:26:14.916 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5036/swagger/favicon-32x32.png - 304 null null 5.6152ms
+2026-05-07 04:26:15.023 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5036/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 139.4338ms
+2026-05-07 04:26:42.802 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:5036/api/auth/login - application/json 47
+2026-05-07 04:26:42.813 +02:00 [INF] CORS policy execution successful.
+2026-05-07 04:26:42.818 +02:00 [INF] Executing endpoint 'AuthController.Login (ApiApp)'
+2026-05-07 04:26:42.841 +02:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LoginDto) on controller AuthController (ApiApp).
+2026-05-07 04:26:44.020 +02:00 [INF] Executed DbCommand (20ms) [Parameters=[@dto_Name='?' (Size = 5)], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."Name", "u"."Password", "u"."Role"
+FROM "Users" AS "u"
+WHERE "u"."Name" = @dto_Name
+LIMIT 1
+2026-05-07 04:26:44.403 +02:00 [INF] User admin logged in
+2026-05-07 04:26:44.409 +02:00 [INF] Executing OkObjectResult, writing value of type 'AuthResponseDto'.
+2026-05-07 04:26:44.424 +02:00 [INF] Executed action AuthController.Login (ApiApp) in 1575.8176ms
+2026-05-07 04:26:44.425 +02:00 [INF] Executed endpoint 'AuthController.Login (ApiApp)'
+2026-05-07 04:26:44.426 +02:00 [INF] HTTP POST /api/auth/login responded 200 in 1618.7446 ms
+2026-05-07 04:26:44.435 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:5036/api/auth/login - 200 null application/json; charset=utf-8 1632.5888ms
+2026-05-07 04:30:50.675 +02:00 [INF] Application is shutting down...
+2026-05-07 04:32:54.588 +02:00 [INF] User admin logged in
+2026-05-07 04:32:54.643 +02:00 [INF] HTTP POST /api/auth/login responded 200 in 1031.7134 ms
+2026-05-07 04:37:46.704 +02:00 [INF] User 1 admin logged in
+2026-05-07 04:37:46.795 +02:00 [INF] HTTP POST /api/auth/login responded 200 in 1182.6536 ms

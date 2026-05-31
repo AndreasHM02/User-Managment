@@ -1,0 +1,47 @@
+.list-table {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.list-header,
+.list-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 0.2fr;
+  gap: 1rem;
+  padding: 0.75rem;
+  align-items: center;
+  
+}
+
+.list-header {
+  font-weight: bold;
+  border-bottom: 2px solid #ccc;
+}
+
+.list-row {
+  border-bottom: 1px solid #ccc;
+}
+
+.list-cell {
+  padding: 0.25rem;
+  text-align: center;
+}
+
+.list-actions {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.list-actions button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+
+.list-actions button:hover {
+  transform: scale(1.1);
+}

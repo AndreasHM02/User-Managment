@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Register from "./pages/Register";
 import AdminUsers from "./pages/AdminUsers";
 import AdminCreateUser from "./pages/AdminCreateUser";
+import ProtectedRoute from "./components/ProtectedRoute";
 import { AuthProvider } from "./context/AuthContext";
 import "./App.css"
 import Update from "./pages/Update";
@@ -17,11 +18,13 @@ function App() {
           <Navbar />
           <Routes>
             <Route path="/login" element={<Login />} />
-            <Route path="/profile" element={<Profile />} />
             <Route path="/register" element={<Register />} />
-            <Route path="/update/:id?" element={<Update />} />
-            <Route path="/admin" element={<AdminUsers />} />
-            <Route path="/adminCreate" element={<AdminCreateUser />} />
+            <Route element={<ProtectedRoute />}>
+              <Route path="/profile" element={<Profile />} />
+              <Route path="/update/:id?" element={<Update />} />
+              <Route path="/admin" element={<AdminUsers />} />
+              <Route path="/adminCreate" element={<AdminCreateUser />} />
+            </Route>
           </Routes>
         </div>
       </AuthProvider>

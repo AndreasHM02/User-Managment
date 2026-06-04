@@ -2,6 +2,7 @@ import type { AuthContextType } from "../types/authContext";
 import { createContext, useState, useContext, useEffect} from "react";
 import type { User } from "../types/user";
 import { userApi } from "../api/user"
+import { logger } from "../utils/logger";
 
 export const AuthContext = createContext<AuthContextType | null>(null);
 
@@ -16,18 +17,22 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
         if (!token)
         {
+            logger.info("[AUTH] No token found");
             setUser(null);
             return;
         }
 
         try
         {
+            logger.info("[AUTH] Fetching user information");
             const user = await userApi.getMe();
+            logger.info("[AUTH] User information fetched:", user);
             setUser(user);
         }
-        catch
+        catch(error)
         {
             localStorage.removeItem("token");
+            logger.warn("[AUTH] Failed to fetch user, token removed", error);
             setUser(null);
         }  
     }
@@ -40,15 +45,18 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     };
 
     const logout = () => {
-        setUser(null);
         localStorage.removeItem("token");
+        setUser(null);
+        logger.info("[AUTH] User logged out");
     };
 
     useEffect(() => {
         const init = async () => {
             setLoading(true);
+            logger.info("[AUTH] Init started");
             await refreshUser();
             setLoading(false)
+            logger.info("[AUTH] Init completed");
         }
         init();
     },[]);

@@ -23,7 +23,7 @@ public class UsersController : ControllerBase
     {
         var claim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
         
-        if ( int.TryParse(claim, out int id))
+        if ( !int.TryParse(claim, out int id))
             throw new UnauthorizedAccessException();
 
         return id;

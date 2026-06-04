@@ -11,12 +11,13 @@ export default function Login() {
     const handleLogin = async ( data: AuthData ) => {
         try {
             const res = await authApi.login(data)
+            localStorage.clear();
 
             localStorage.setItem("token", res.token);
             
-            login(res.user)
+            login(res.token)
 
-            console.log("Logged in!");
+            console.log("Logged in! User:", res.user);
             
             navigate("/profile");
         } catch {

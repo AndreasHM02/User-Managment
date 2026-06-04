@@ -27,4 +27,8 @@ Global
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0BB1AADB-D675-43BC-B7E5-74B4D52DAB00}
 	EndGlobalSection
+	GlobalSection(NuGetPackageRestore) = preSolution
+		Enabled = True
+		RestorePackages = True
+	EndGlobalSection
 EndGlobal

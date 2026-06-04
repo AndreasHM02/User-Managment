@@ -1,0 +1,809 @@
+2026-06-04 00:45:35.960 +02:00 [INF] HTTP OPTIONS /api/auth/login responded 204 in 2.6873 ms
+2026-06-04 00:45:37.682 +02:00 [WRN] Failed login attempt for admin
+System.UnauthorizedAccessException: Invalid username or password
+   at AuthService.Login(LoginDto dto) in C:\Users\andre\Documents\User Managment\ApiApp\Application\Services\AuthService.cs:line 45
+   at AuthController.Login(LoginDto dto) in C:\Users\andre\Documents\User Managment\ApiApp\Api\Controllers\AuthController.cs:line 43
+2026-06-04 00:45:37.726 +02:00 [INF] HTTP POST /api/auth/login responded 401 in 1708.0540 ms
+2026-06-04 00:45:38.108 +02:00 [WRN] Failed login attempt for admin
+System.UnauthorizedAccessException: Invalid username or password
+   at AuthService.Login(LoginDto dto) in C:\Users\andre\Documents\User Managment\ApiApp\Application\Services\AuthService.cs:line 45
+   at AuthController.Login(LoginDto dto) in C:\Users\andre\Documents\User Managment\ApiApp\Api\Controllers\AuthController.cs:line 43
+2026-06-04 00:45:38.113 +02:00 [INF] HTTP POST /api/auth/login responded 401 in 339.6718 ms
+2026-06-04 00:45:56.307 +02:00 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.0817 ms
+2026-06-04 00:45:56.643 +02:00 [INF] User 1 admin logged in
+2026-06-04 00:45:56.653 +02:00 [INF] HTTP POST /api/auth/login responded 200 in 343.3126 ms
+2026-06-04 00:45:56.665 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.3494 ms
+2026-06-04 00:45:56.691 +02:00 [INF] HTTP GET /api/users/me responded 401 in 16.1079 ms
+2026-06-04 00:53:21.291 +02:00 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.0834 ms
+2026-06-04 00:53:21.422 +02:00 [INF] User 1 admin logged in
+2026-06-04 00:53:21.423 +02:00 [INF] HTTP POST /api/auth/login responded 200 in 128.4684 ms
+2026-06-04 00:53:21.432 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0414 ms
+2026-06-04 00:53:21.450 +02:00 [INF] HTTP GET /api/users/me responded 401 in 0.7241 ms
+2026-06-04 01:04:26.887 +02:00 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.0846 ms
+2026-06-04 01:04:27.025 +02:00 [INF] User 1 admin logged in
+2026-06-04 01:04:27.026 +02:00 [INF] HTTP POST /api/auth/login responded 200 in 136.0949 ms
+2026-06-04 01:04:27.041 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.2517 ms
+2026-06-04 01:04:27.097 +02:00 [WRN] Authorization failed
+System.UnauthorizedAccessException: Attempted to perform an unauthorized operation.
+   at UsersController.GetCurrentUserId() in C:\Users\andre\Documents\User Managment\ApiApp\Api\Controllers\UsersController.cs:line 27
+   at UsersController.GetUserInfo() in C:\Users\andre\Documents\User Managment\ApiApp\Api\Controllers\UsersController.cs:line 57
+2026-06-04 01:04:27.113 +02:00 [INF] HTTP GET /api/users/me responded 401 in 55.9242 ms
+2026-06-04 01:04:50.418 +02:00 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.0395 ms
+2026-06-04 01:04:50.552 +02:00 [INF] User 1 admin logged in
+2026-06-04 01:04:50.553 +02:00 [INF] HTTP POST /api/auth/login responded 200 in 132.7704 ms
+2026-06-04 01:04:50.574 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0970 ms
+2026-06-04 01:04:50.581 +02:00 [WRN] Authorization failed
+System.UnauthorizedAccessException: Attempted to perform an unauthorized operation.
+   at UsersController.GetCurrentUserId() in C:\Users\andre\Documents\User Managment\ApiApp\Api\Controllers\UsersController.cs:line 27
+   at UsersController.GetUserInfo() in C:\Users\andre\Documents\User Managment\ApiApp\Api\Controllers\UsersController.cs:line 57
+2026-06-04 01:04:50.583 +02:00 [INF] HTTP GET /api/users/me responded 401 in 2.8392 ms
+2026-06-04 01:05:34.945 +02:00 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.1111 ms
+2026-06-04 01:05:35.085 +02:00 [INF] User 1 admin logged in
+2026-06-04 01:05:35.086 +02:00 [INF] HTTP POST /api/auth/login responded 200 in 139.5643 ms
+2026-06-04 01:05:35.095 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0571 ms
+2026-06-04 01:05:35.105 +02:00 [WRN] Authorization failed
+System.UnauthorizedAccessException: Attempted to perform an unauthorized operation.
+   at UsersController.GetCurrentUserId() in C:\Users\andre\Documents\User Managment\ApiApp\Api\Controllers\UsersController.cs:line 27
+   at UsersController.GetUserInfo() in C:\Users\andre\Documents\User Managment\ApiApp\Api\Controllers\UsersController.cs:line 57
+2026-06-04 01:05:35.109 +02:00 [INF] HTTP GET /api/users/me responded 401 in 5.9964 ms
+2026-06-04 01:19:59.243 +02:00 [INF] HTTP OPTIONS /api/auth/login responded 204 in 1.4553 ms
+2026-06-04 01:20:00.314 +02:00 [INF] User 1 admin logged in
+2026-06-04 01:20:00.329 +02:00 [INF] HTTP POST /api/auth/login responded 200 in 1038.8023 ms
+2026-06-04 01:20:00.353 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.3585 ms
+2026-06-04 01:20:00.434 +02:00 [WRN] Authorization failed
+System.UnauthorizedAccessException: Attempted to perform an unauthorized operation.
+   at UsersController.GetCurrentUserId() in C:\Users\andre\Documents\User Managment\ApiApp\Api\Controllers\UsersController.cs:line 27
+   at UsersController.GetUserInfo() in C:\Users\andre\Documents\User Managment\ApiApp\Api\Controllers\UsersController.cs:line 57
+2026-06-04 01:20:00.476 +02:00 [INF] HTTP GET /api/users/me responded 401 in 86.1632 ms
+2026-06-04 01:23:44.857 +02:00 [INF] HTTP OPTIONS /api/auth/login responded 204 in 1.4019 ms
+2026-06-04 01:23:45.923 +02:00 [INF] User 1 admin logged in
+2026-06-04 01:23:45.943 +02:00 [INF] HTTP POST /api/auth/login responded 200 in 1035.8615 ms
+2026-06-04 01:23:45.958 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.5141 ms
+2026-06-04 01:23:46.086 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 01:23:46.087 +02:00 [INF] User info for admin 1
+2026-06-04 01:23:46.090 +02:00 [INF] HTTP GET /api/users/me responded 200 in 95.7200 ms
+2026-06-04 01:24:21.181 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.1018 ms
+2026-06-04 01:24:21.181 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0966 ms
+2026-06-04 01:24:21.183 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0703 ms
+2026-06-04 01:24:21.184 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0476 ms
+2026-06-04 01:24:21.270 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 01:24:21.271 +02:00 [INF] User info for admin 1
+2026-06-04 01:24:21.272 +02:00 [INF] HTTP GET /api/users/me responded 200 in 82.9594 ms
+2026-06-04 01:24:21.277 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 01:24:21.278 +02:00 [INF] User info for admin 1
+2026-06-04 01:24:21.279 +02:00 [INF] HTTP GET /api/users/me responded 200 in 6.0381 ms
+2026-06-04 01:24:21.285 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 01:24:21.287 +02:00 [INF] User info for admin 1
+2026-06-04 01:24:21.289 +02:00 [INF] HTTP GET /api/users/me responded 200 in 7.3821 ms
+2026-06-04 01:24:21.295 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 01:24:21.301 +02:00 [INF] User info for admin 1
+2026-06-04 01:24:21.304 +02:00 [INF] HTTP GET /api/users/me responded 200 in 12.1488 ms
+2026-06-04 01:24:22.710 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 01:24:22.729 +02:00 [INF] User info for admin 1
+2026-06-04 01:24:22.765 +02:00 [INF] HTTP GET /api/users/me responded 200 in 58.4622 ms
+2026-06-04 01:24:22.769 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 01:24:22.835 +02:00 [INF] User info for admin 1
+2026-06-04 01:24:22.836 +02:00 [INF] HTTP GET /api/users/me responded 200 in 69.7438 ms
+2026-06-04 01:24:22.849 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 01:24:22.852 +02:00 [INF] User info for admin 1
+2026-06-04 01:24:22.853 +02:00 [INF] HTTP GET /api/users/me responded 200 in 10.3254 ms
+2026-06-04 01:24:22.867 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 01:24:22.874 +02:00 [INF] User info for admin 1
+2026-06-04 01:24:22.875 +02:00 [INF] HTTP GET /api/users/me responded 200 in 13.1017 ms
+2026-06-04 01:35:15.063 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0562 ms
+2026-06-04 01:35:15.063 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0780 ms
+2026-06-04 01:35:15.066 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0536 ms
+2026-06-04 01:35:15.073 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0662 ms
+2026-06-04 01:35:15.084 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 01:35:15.086 +02:00 [INF] User info for admin 1
+2026-06-04 01:35:15.087 +02:00 [INF] HTTP GET /api/users/me responded 200 in 13.8078 ms
+2026-06-04 01:35:15.092 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 01:35:15.096 +02:00 [INF] User info for admin 1
+2026-06-04 01:35:15.097 +02:00 [INF] HTTP GET /api/users/me responded 200 in 7.7129 ms
+2026-06-04 01:35:15.100 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 01:35:15.102 +02:00 [INF] User info for admin 1
+2026-06-04 01:35:15.104 +02:00 [INF] HTTP GET /api/users/me responded 200 in 5.7484 ms
+2026-06-04 01:35:15.107 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 01:35:15.110 +02:00 [INF] User info for admin 1
+2026-06-04 01:35:15.112 +02:00 [INF] HTTP GET /api/users/me responded 200 in 6.4884 ms
+2026-06-04 01:35:16.013 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 01:35:16.015 +02:00 [INF] User info for admin 1
+2026-06-04 01:35:16.020 +02:00 [INF] HTTP GET /api/users/me responded 200 in 9.0918 ms
+2026-06-04 01:35:16.028 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 01:35:16.032 +02:00 [INF] User info for admin 1
+2026-06-04 01:35:16.034 +02:00 [INF] HTTP GET /api/users/me responded 200 in 7.4532 ms
+2026-06-04 01:35:16.047 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 01:35:16.048 +02:00 [INF] User info for admin 1
+2026-06-04 01:35:16.050 +02:00 [INF] HTTP GET /api/users/me responded 200 in 5.1112 ms
+2026-06-04 01:35:16.057 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 01:35:16.058 +02:00 [INF] User info for admin 1
+2026-06-04 01:35:16.061 +02:00 [INF] HTTP GET /api/users/me responded 200 in 8.8580 ms
+2026-06-04 01:35:16.982 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 01:35:16.984 +02:00 [INF] User info for admin 1
+2026-06-04 01:35:16.985 +02:00 [INF] HTTP GET /api/users/me responded 200 in 5.4633 ms
+2026-06-04 01:35:16.988 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 01:35:16.990 +02:00 [INF] User info for admin 1
+2026-06-04 01:35:16.991 +02:00 [INF] HTTP GET /api/users/me responded 200 in 4.9454 ms
+2026-06-04 01:35:16.994 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 01:35:16.995 +02:00 [INF] User info for admin 1
+2026-06-04 01:35:16.996 +02:00 [INF] HTTP GET /api/users/me responded 200 in 3.4333 ms
+2026-06-04 01:35:17.000 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 01:35:17.001 +02:00 [INF] User info for admin 1
+2026-06-04 01:35:17.005 +02:00 [INF] HTTP GET /api/users/me responded 200 in 5.8315 ms
+2026-06-04 02:33:06.413 +02:00 [INF] HTTP OPTIONS /api/auth/login responded 204 in 1.4145 ms
+2026-06-04 02:33:06.659 +02:00 [INF] User 1 admin logged in
+2026-06-04 02:33:06.661 +02:00 [INF] HTTP POST /api/auth/login responded 200 in 245.2595 ms
+2026-06-04 02:33:06.697 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0663 ms
+2026-06-04 02:33:06.759 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 02:33:06.775 +02:00 [INF] User info for admin 1
+2026-06-04 02:33:06.787 +02:00 [INF] HTTP GET /api/users/me responded 200 in 30.9886 ms
+2026-06-04 02:33:20.611 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.2568 ms
+2026-06-04 02:33:20.612 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.1156 ms
+2026-06-04 02:33:20.615 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.1020 ms
+2026-06-04 02:33:20.615 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0612 ms
+2026-06-04 02:33:20.621 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 02:33:20.627 +02:00 [INF] User info for admin 1
+2026-06-04 02:33:20.629 +02:00 [INF] HTTP GET /api/users/me responded 200 in 11.3731 ms
+2026-06-04 02:33:20.632 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 02:33:20.633 +02:00 [INF] User info for admin 1
+2026-06-04 02:33:20.634 +02:00 [INF] HTTP GET /api/users/me responded 200 in 3.4585 ms
+2026-06-04 02:33:20.638 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 02:33:20.642 +02:00 [INF] User info for admin 1
+2026-06-04 02:33:20.644 +02:00 [INF] HTTP GET /api/users/me responded 200 in 7.6181 ms
+2026-06-04 02:33:20.676 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 02:33:20.678 +02:00 [INF] User info for admin 1
+2026-06-04 02:33:20.679 +02:00 [INF] HTTP GET /api/users/me responded 200 in 25.9779 ms
+2026-06-04 02:33:29.053 +02:00 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.0393 ms
+2026-06-04 02:33:29.176 +02:00 [INF] User 1 admin logged in
+2026-06-04 02:33:29.177 +02:00 [INF] HTTP POST /api/auth/login responded 200 in 121.6785 ms
+2026-06-04 02:33:29.186 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.3948 ms
+2026-06-04 02:33:29.201 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 02:33:29.207 +02:00 [INF] User info for admin 1
+2026-06-04 02:33:29.210 +02:00 [INF] HTTP GET /api/users/me responded 200 in 11.3287 ms
+2026-06-04 02:33:57.165 +02:00 [INF] HTTP OPTIONS /api/users responded 204 in 0.0965 ms
+2026-06-04 02:33:57.166 +02:00 [INF] HTTP OPTIONS /api/users responded 204 in 0.0250 ms
+2026-06-04 02:33:57.200 +02:00 [INF] Users delivered
+2026-06-04 02:33:57.201 +02:00 [INF] HTTP GET /api/users responded 200 in 31.6083 ms
+2026-06-04 02:33:57.207 +02:00 [INF] Users delivered
+2026-06-04 02:33:57.208 +02:00 [INF] HTTP GET /api/users responded 200 in 3.5512 ms
+2026-06-04 02:35:08.076 +02:00 [INF] HTTP OPTIONS /api/users responded 204 in 0.0454 ms
+2026-06-04 02:35:08.076 +02:00 [INF] HTTP OPTIONS /api/users responded 204 in 0.0314 ms
+2026-06-04 02:35:08.087 +02:00 [INF] Users delivered
+2026-06-04 02:35:08.090 +02:00 [INF] HTTP GET /api/users responded 200 in 7.4783 ms
+2026-06-04 02:35:08.095 +02:00 [INF] Users delivered
+2026-06-04 02:35:08.099 +02:00 [INF] HTTP GET /api/users responded 200 in 5.4657 ms
+2026-06-04 02:35:08.957 +02:00 [INF] HTTP OPTIONS /api/users/1 responded 204 in 0.0313 ms
+2026-06-04 02:35:08.957 +02:00 [INF] HTTP OPTIONS /api/users/1 responded 204 in 0.1644 ms
+2026-06-04 02:35:08.981 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 02:35:08.982 +02:00 [INF] HTTP GET /api/users/1 responded 200 in 19.1228 ms
+2026-06-04 02:35:08.987 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 02:35:08.991 +02:00 [INF] HTTP GET /api/users/1 responded 200 in 6.8877 ms
+2026-06-04 02:35:10.748 +02:00 [INF] Users delivered
+2026-06-04 02:35:10.749 +02:00 [INF] HTTP GET /api/users responded 200 in 1.5989 ms
+2026-06-04 02:35:10.754 +02:00 [INF] Users delivered
+2026-06-04 02:35:10.756 +02:00 [INF] HTTP GET /api/users responded 200 in 4.8081 ms
+2026-06-04 02:35:11.788 +02:00 [INF] HTTP OPTIONS /api/users/2 responded 204 in 0.0443 ms
+2026-06-04 02:35:11.790 +02:00 [INF] HTTP OPTIONS /api/users/2 responded 204 in 0.0280 ms
+2026-06-04 02:35:11.793 +02:00 [INF] User 2 Bob fetched from DB
+2026-06-04 02:35:11.795 +02:00 [INF] HTTP GET /api/users/2 responded 200 in 3.3782 ms
+2026-06-04 02:35:11.801 +02:00 [INF] User 2 Bob fetched from DB
+2026-06-04 02:35:11.803 +02:00 [INF] HTTP GET /api/users/2 responded 200 in 3.9103 ms
+2026-06-04 02:35:13.459 +02:00 [INF] HTTP OPTIONS /api/users responded 204 in 0.0525 ms
+2026-06-04 02:35:13.459 +02:00 [INF] HTTP OPTIONS /api/users responded 204 in 0.0061 ms
+2026-06-04 02:35:13.463 +02:00 [INF] Users delivered
+2026-06-04 02:35:13.464 +02:00 [INF] HTTP GET /api/users responded 200 in 2.7925 ms
+2026-06-04 02:35:13.467 +02:00 [INF] Users delivered
+2026-06-04 02:35:13.476 +02:00 [INF] HTTP GET /api/users responded 200 in 9.3225 ms
+2026-06-04 02:35:37.287 +02:00 [INF] HTTP OPTIONS /api/users responded 204 in 0.0216 ms
+2026-06-04 02:35:37.288 +02:00 [INF] HTTP OPTIONS /api/users responded 204 in 0.1286 ms
+2026-06-04 02:35:37.296 +02:00 [INF] Users delivered
+2026-06-04 02:35:37.297 +02:00 [INF] HTTP GET /api/users responded 200 in 3.3633 ms
+2026-06-04 02:35:37.301 +02:00 [INF] Users delivered
+2026-06-04 02:35:37.311 +02:00 [INF] HTTP GET /api/users responded 200 in 11.3316 ms
+2026-06-04 02:36:00.017 +02:00 [INF] HTTP OPTIONS /api/users/2 responded 204 in 0.0374 ms
+2026-06-04 02:36:00.017 +02:00 [INF] HTTP OPTIONS /api/users/2 responded 204 in 0.0384 ms
+2026-06-04 02:36:00.023 +02:00 [INF] User 2 Bob fetched from DB
+2026-06-04 02:36:00.026 +02:00 [INF] HTTP GET /api/users/2 responded 200 in 4.2364 ms
+2026-06-04 02:36:00.035 +02:00 [INF] User 2 Bob fetched from DB
+2026-06-04 02:36:00.082 +02:00 [INF] HTTP GET /api/users/2 responded 200 in 54.5421 ms
+2026-06-04 02:36:04.356 +02:00 [INF] HTTP OPTIONS /api/users responded 204 in 0.0268 ms
+2026-06-04 02:36:04.356 +02:00 [INF] HTTP OPTIONS /api/users responded 204 in 0.1244 ms
+2026-06-04 02:36:04.363 +02:00 [INF] Users delivered
+2026-06-04 02:36:04.364 +02:00 [INF] HTTP GET /api/users responded 200 in 2.2469 ms
+2026-06-04 02:36:04.366 +02:00 [INF] Users delivered
+2026-06-04 02:36:04.372 +02:00 [INF] HTTP GET /api/users responded 200 in 6.8810 ms
+2026-06-04 02:54:57.345 +02:00 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.0302 ms
+2026-06-04 02:54:57.472 +02:00 [INF] User 1 admin logged in
+2026-06-04 02:54:57.473 +02:00 [INF] HTTP POST /api/auth/login responded 200 in 125.7640 ms
+2026-06-04 02:54:57.484 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0386 ms
+2026-06-04 02:54:57.498 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 02:54:57.501 +02:00 [INF] User info for admin 1
+2026-06-04 02:54:57.503 +02:00 [INF] HTTP GET /api/users/me responded 200 in 6.7625 ms
+2026-06-04 02:59:23.781 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0282 ms
+2026-06-04 02:59:23.781 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0109 ms
+2026-06-04 02:59:23.782 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0102 ms
+2026-06-04 02:59:23.782 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0093 ms
+2026-06-04 02:59:23.794 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 02:59:23.795 +02:00 [INF] User info for admin 1
+2026-06-04 02:59:23.796 +02:00 [INF] HTTP GET /api/users/me responded 200 in 8.6063 ms
+2026-06-04 02:59:23.799 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 02:59:23.801 +02:00 [INF] User info for admin 1
+2026-06-04 02:59:23.803 +02:00 [INF] HTTP GET /api/users/me responded 200 in 4.9973 ms
+2026-06-04 02:59:23.805 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 02:59:23.809 +02:00 [INF] User info for admin 1
+2026-06-04 02:59:23.810 +02:00 [INF] HTTP GET /api/users/me responded 200 in 5.9056 ms
+2026-06-04 02:59:23.811 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 02:59:23.813 +02:00 [INF] User info for admin 1
+2026-06-04 02:59:23.814 +02:00 [INF] HTTP GET /api/users/me responded 200 in 3.3953 ms
+2026-06-04 03:00:26.731 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0206 ms
+2026-06-04 03:00:26.732 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0173 ms
+2026-06-04 03:00:26.738 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0217 ms
+2026-06-04 03:00:26.742 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:00:26.745 +02:00 [INF] User info for admin 1
+2026-06-04 03:00:26.748 +02:00 [INF] HTTP GET /api/users/me responded 200 in 7.6983 ms
+2026-06-04 03:00:26.753 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:00:26.758 +02:00 [INF] User info for admin 1
+2026-06-04 03:00:26.758 +02:00 [INF] HTTP GET /api/users/me responded 200 in 7.2405 ms
+2026-06-04 03:00:26.763 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:00:26.764 +02:00 [INF] User info for admin 1
+2026-06-04 03:00:26.765 +02:00 [INF] HTTP GET /api/users/me responded 200 in 3.5962 ms
+2026-06-04 03:00:26.770 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:00:26.774 +02:00 [INF] User info for admin 1
+2026-06-04 03:00:26.776 +02:00 [INF] HTTP GET /api/users/me responded 200 in 8.5624 ms
+2026-06-04 03:00:35.687 +02:00 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.0187 ms
+2026-06-04 03:00:35.808 +02:00 [INF] User 1 admin logged in
+2026-06-04 03:00:35.809 +02:00 [INF] HTTP POST /api/auth/login responded 200 in 119.0501 ms
+2026-06-04 03:00:35.814 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0168 ms
+2026-06-04 03:00:35.828 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:00:35.829 +02:00 [INF] User info for admin 1
+2026-06-04 03:00:35.830 +02:00 [INF] HTTP GET /api/users/me responded 200 in 2.9380 ms
+2026-06-04 03:01:40.387 +02:00 [INF] HTTP OPTIONS /api/users responded 204 in 0.0232 ms
+2026-06-04 03:01:40.387 +02:00 [INF] HTTP OPTIONS /api/users responded 204 in 0.0232 ms
+2026-06-04 03:01:40.402 +02:00 [INF] Users delivered
+2026-06-04 03:01:40.403 +02:00 [INF] HTTP GET /api/users responded 200 in 2.9264 ms
+2026-06-04 03:01:40.409 +02:00 [INF] Users delivered
+2026-06-04 03:01:40.410 +02:00 [INF] HTTP GET /api/users responded 200 in 5.0721 ms
+2026-06-04 03:01:49.468 +02:00 [INF] HTTP OPTIONS /api/users/role/2 responded 204 in 0.0593 ms
+2026-06-04 03:01:49.542 +02:00 [INF] HTTP PUT /api/users/role/2 responded 200 in 69.9662 ms
+2026-06-04 03:07:51.808 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0528 ms
+2026-06-04 03:07:51.812 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0208 ms
+2026-06-04 03:07:51.819 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:07:51.820 +02:00 [INF] User info for admin 1
+2026-06-04 03:07:51.825 +02:00 [INF] HTTP GET /api/users/me responded 200 in 11.2706 ms
+2026-06-04 03:07:51.836 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:07:51.842 +02:00 [INF] User info for admin 1
+2026-06-04 03:07:51.843 +02:00 [INF] HTTP GET /api/users/me responded 200 in 9.6805 ms
+2026-06-04 03:07:51.847 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:07:51.848 +02:00 [INF] User info for admin 1
+2026-06-04 03:07:51.849 +02:00 [INF] HTTP GET /api/users/me responded 200 in 4.2560 ms
+2026-06-04 03:07:51.852 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:07:51.853 +02:00 [INF] User info for admin 1
+2026-06-04 03:07:51.855 +02:00 [INF] HTTP GET /api/users/me responded 200 in 4.2185 ms
+2026-06-04 03:07:51.888 +02:00 [INF] HTTP OPTIONS /api/users responded 204 in 0.0400 ms
+2026-06-04 03:07:51.894 +02:00 [INF] Users delivered
+2026-06-04 03:07:51.895 +02:00 [INF] HTTP GET /api/users responded 200 in 2.0505 ms
+2026-06-04 03:07:51.898 +02:00 [INF] Users delivered
+2026-06-04 03:07:51.899 +02:00 [INF] HTTP GET /api/users responded 200 in 1.6049 ms
+2026-06-04 03:08:22.785 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0177 ms
+2026-06-04 03:08:22.785 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0167 ms
+2026-06-04 03:08:22.789 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:08:22.795 +02:00 [INF] User info for admin 1
+2026-06-04 03:08:22.797 +02:00 [INF] HTTP GET /api/users/me responded 200 in 9.5667 ms
+2026-06-04 03:08:22.800 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:08:22.801 +02:00 [INF] User info for admin 1
+2026-06-04 03:08:22.803 +02:00 [INF] HTTP GET /api/users/me responded 200 in 4.2632 ms
+2026-06-04 03:08:22.806 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:08:22.816 +02:00 [INF] User info for admin 1
+2026-06-04 03:08:22.817 +02:00 [INF] HTTP GET /api/users/me responded 200 in 11.7995 ms
+2026-06-04 03:08:22.821 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:08:22.829 +02:00 [INF] User info for admin 1
+2026-06-04 03:08:22.831 +02:00 [INF] HTTP GET /api/users/me responded 200 in 11.7249 ms
+2026-06-04 03:09:24.711 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0127 ms
+2026-06-04 03:09:24.711 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0098 ms
+2026-06-04 03:09:24.713 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0144 ms
+2026-06-04 03:09:24.714 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0114 ms
+2026-06-04 03:09:24.715 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:09:24.718 +02:00 [INF] User info for admin 1
+2026-06-04 03:09:24.719 +02:00 [INF] HTTP GET /api/users/me responded 200 in 4.7909 ms
+2026-06-04 03:09:24.738 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:09:24.740 +02:00 [INF] User info for admin 1
+2026-06-04 03:09:24.741 +02:00 [INF] HTTP GET /api/users/me responded 200 in 5.3354 ms
+2026-06-04 03:09:24.743 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:09:24.744 +02:00 [INF] User info for admin 1
+2026-06-04 03:09:24.748 +02:00 [INF] HTTP GET /api/users/me responded 200 in 6.0968 ms
+2026-06-04 03:09:24.753 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:09:24.758 +02:00 [INF] User info for admin 1
+2026-06-04 03:09:24.762 +02:00 [INF] HTTP GET /api/users/me responded 200 in 11.2692 ms
+2026-06-04 03:09:40.658 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0170 ms
+2026-06-04 03:09:40.659 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0097 ms
+2026-06-04 03:09:40.659 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0122 ms
+2026-06-04 03:09:40.660 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0079 ms
+2026-06-04 03:09:40.661 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:09:40.666 +02:00 [INF] User info for admin 1
+2026-06-04 03:09:40.667 +02:00 [INF] HTTP GET /api/users/me responded 200 in 6.3866 ms
+2026-06-04 03:09:40.669 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:09:40.671 +02:00 [INF] User info for admin 1
+2026-06-04 03:09:40.672 +02:00 [INF] HTTP GET /api/users/me responded 200 in 3.1673 ms
+2026-06-04 03:09:40.674 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:09:40.675 +02:00 [INF] User info for admin 1
+2026-06-04 03:09:40.676 +02:00 [INF] HTTP GET /api/users/me responded 200 in 3.3690 ms
+2026-06-04 03:09:40.679 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:09:40.682 +02:00 [INF] User info for admin 1
+2026-06-04 03:09:40.683 +02:00 [INF] HTTP GET /api/users/me responded 200 in 5.3756 ms
+2026-06-04 03:10:30.672 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0906 ms
+2026-06-04 03:10:30.673 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0113 ms
+2026-06-04 03:10:30.674 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0152 ms
+2026-06-04 03:10:30.677 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:10:30.679 +02:00 [INF] User info for admin 1
+2026-06-04 03:10:30.680 +02:00 [INF] HTTP GET /api/users/me responded 200 in 3.4815 ms
+2026-06-04 03:10:30.682 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:10:30.683 +02:00 [INF] User info for admin 1
+2026-06-04 03:10:30.684 +02:00 [INF] HTTP GET /api/users/me responded 200 in 2.8246 ms
+2026-06-04 03:10:30.685 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:10:30.687 +02:00 [INF] User info for admin 1
+2026-06-04 03:10:30.688 +02:00 [INF] HTTP GET /api/users/me responded 200 in 2.7785 ms
+2026-06-04 03:10:30.691 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:10:30.693 +02:00 [INF] User info for admin 1
+2026-06-04 03:10:30.693 +02:00 [INF] HTTP GET /api/users/me responded 200 in 3.7371 ms
+2026-06-04 03:10:40.776 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0312 ms
+2026-06-04 03:10:40.776 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0084 ms
+2026-06-04 03:10:40.777 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0251 ms
+2026-06-04 03:10:40.778 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0213 ms
+2026-06-04 03:10:40.782 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:10:40.783 +02:00 [INF] User info for admin 1
+2026-06-04 03:10:40.784 +02:00 [INF] HTTP GET /api/users/me responded 200 in 2.9311 ms
+2026-06-04 03:10:40.786 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:10:40.787 +02:00 [INF] User info for admin 1
+2026-06-04 03:10:40.789 +02:00 [INF] HTTP GET /api/users/me responded 200 in 2.8596 ms
+2026-06-04 03:10:40.791 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:10:40.793 +02:00 [INF] User info for admin 1
+2026-06-04 03:10:40.793 +02:00 [INF] HTTP GET /api/users/me responded 200 in 3.4415 ms
+2026-06-04 03:10:40.796 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:10:40.800 +02:00 [INF] User info for admin 1
+2026-06-04 03:10:40.801 +02:00 [INF] HTTP GET /api/users/me responded 200 in 6.2738 ms
+2026-06-04 03:10:51.654 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0160 ms
+2026-06-04 03:10:51.655 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0309 ms
+2026-06-04 03:10:51.655 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0122 ms
+2026-06-04 03:10:51.656 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0140 ms
+2026-06-04 03:10:51.658 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:10:51.661 +02:00 [INF] User info for admin 1
+2026-06-04 03:10:51.662 +02:00 [INF] HTTP GET /api/users/me responded 200 in 4.2870 ms
+2026-06-04 03:10:51.664 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:10:51.666 +02:00 [INF] User info for admin 1
+2026-06-04 03:10:51.666 +02:00 [INF] HTTP GET /api/users/me responded 200 in 3.5529 ms
+2026-06-04 03:10:51.669 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:10:51.670 +02:00 [INF] User info for admin 1
+2026-06-04 03:10:51.672 +02:00 [INF] HTTP GET /api/users/me responded 200 in 3.6718 ms
+2026-06-04 03:10:51.674 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:10:51.675 +02:00 [INF] User info for admin 1
+2026-06-04 03:10:51.676 +02:00 [INF] HTTP GET /api/users/me responded 200 in 2.7644 ms
+2026-06-04 03:11:24.728 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0271 ms
+2026-06-04 03:11:24.729 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0112 ms
+2026-06-04 03:11:24.730 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0133 ms
+2026-06-04 03:11:24.733 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:11:24.735 +02:00 [INF] User info for admin 1
+2026-06-04 03:11:24.737 +02:00 [INF] HTTP GET /api/users/me responded 200 in 4.9297 ms
+2026-06-04 03:11:24.741 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:11:24.743 +02:00 [INF] User info for admin 1
+2026-06-04 03:11:24.744 +02:00 [INF] HTTP GET /api/users/me responded 200 in 6.1654 ms
+2026-06-04 03:11:24.748 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:11:24.754 +02:00 [INF] User info for admin 1
+2026-06-04 03:11:24.758 +02:00 [INF] HTTP GET /api/users/me responded 200 in 11.7359 ms
+2026-06-04 03:11:24.761 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:11:24.766 +02:00 [INF] User info for admin 1
+2026-06-04 03:11:24.767 +02:00 [INF] HTTP GET /api/users/me responded 200 in 7.3731 ms
+2026-06-04 03:11:57.681 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0229 ms
+2026-06-04 03:11:57.681 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0115 ms
+2026-06-04 03:11:57.682 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0186 ms
+2026-06-04 03:11:57.685 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:11:57.687 +02:00 [INF] User info for admin 1
+2026-06-04 03:11:57.688 +02:00 [INF] HTTP GET /api/users/me responded 200 in 4.3361 ms
+2026-06-04 03:11:57.690 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:11:57.693 +02:00 [INF] User info for admin 1
+2026-06-04 03:11:57.695 +02:00 [INF] HTTP GET /api/users/me responded 200 in 5.4278 ms
+2026-06-04 03:11:57.697 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:11:57.698 +02:00 [INF] User info for admin 1
+2026-06-04 03:11:57.699 +02:00 [INF] HTTP GET /api/users/me responded 200 in 3.4233 ms
+2026-06-04 03:11:57.701 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:11:57.704 +02:00 [INF] User info for admin 1
+2026-06-04 03:11:57.705 +02:00 [INF] HTTP GET /api/users/me responded 200 in 5.0530 ms
+2026-06-04 03:12:06.666 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0157 ms
+2026-06-04 03:12:06.666 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0078 ms
+2026-06-04 03:12:06.667 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0089 ms
+2026-06-04 03:12:06.668 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0100 ms
+2026-06-04 03:12:06.672 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:12:06.677 +02:00 [INF] User info for admin 1
+2026-06-04 03:12:06.678 +02:00 [INF] HTTP GET /api/users/me responded 200 in 7.0581 ms
+2026-06-04 03:12:06.680 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:12:06.681 +02:00 [INF] User info for admin 1
+2026-06-04 03:12:06.682 +02:00 [INF] HTTP GET /api/users/me responded 200 in 2.6888 ms
+2026-06-04 03:12:06.684 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:12:06.685 +02:00 [INF] User info for admin 1
+2026-06-04 03:12:06.686 +02:00 [INF] HTTP GET /api/users/me responded 200 in 2.7302 ms
+2026-06-04 03:12:06.688 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:12:06.692 +02:00 [INF] User info for admin 1
+2026-06-04 03:12:06.693 +02:00 [INF] HTTP GET /api/users/me responded 200 in 5.4903 ms
+2026-06-04 03:31:19.833 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0280 ms
+2026-06-04 03:31:19.835 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0153 ms
+2026-06-04 03:31:19.836 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0096 ms
+2026-06-04 03:31:19.836 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0096 ms
+2026-06-04 03:31:19.851 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:31:19.852 +02:00 [INF] User info for admin 1
+2026-06-04 03:31:19.853 +02:00 [INF] HTTP GET /api/users/me responded 200 in 12.5679 ms
+2026-06-04 03:31:19.859 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:31:19.861 +02:00 [INF] User info for admin 1
+2026-06-04 03:31:19.862 +02:00 [INF] HTTP GET /api/users/me responded 200 in 3.9992 ms
+2026-06-04 03:31:19.865 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:31:19.866 +02:00 [INF] User info for admin 1
+2026-06-04 03:31:19.868 +02:00 [INF] HTTP GET /api/users/me responded 200 in 3.9397 ms
+2026-06-04 03:31:19.871 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:31:19.875 +02:00 [INF] User info for admin 1
+2026-06-04 03:31:19.880 +02:00 [INF] HTTP GET /api/users/me responded 200 in 10.2468 ms
+2026-06-04 03:47:50.732 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0277 ms
+2026-06-04 03:47:50.733 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0216 ms
+2026-06-04 03:47:50.741 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:47:50.742 +02:00 [INF] User info for admin 1
+2026-06-04 03:47:50.734 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0121 ms
+2026-06-04 03:47:50.734 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0247 ms
+2026-06-04 03:47:50.743 +02:00 [INF] HTTP GET /api/users/me responded 200 in 6.7585 ms
+2026-06-04 03:47:50.750 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:47:50.772 +02:00 [INF] User info for admin 1
+2026-06-04 03:47:50.773 +02:00 [INF] HTTP GET /api/users/me responded 200 in 24.4378 ms
+2026-06-04 03:47:50.778 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:47:50.789 +02:00 [INF] User info for admin 1
+2026-06-04 03:47:50.793 +02:00 [INF] HTTP GET /api/users/me responded 200 in 16.9584 ms
+2026-06-04 03:47:50.795 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:47:50.796 +02:00 [INF] User info for admin 1
+2026-06-04 03:47:50.798 +02:00 [INF] HTTP GET /api/users/me responded 200 in 3.2551 ms
+2026-06-04 03:48:12.965 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.4434 ms
+2026-06-04 03:48:12.968 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0148 ms
+2026-06-04 03:48:12.978 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:48:12.984 +02:00 [INF] User info for admin 1
+2026-06-04 03:48:13.051 +02:00 [INF] HTTP GET /api/users/me responded 200 in 78.3488 ms
+2026-06-04 03:48:13.057 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:48:13.062 +02:00 [INF] User info for admin 1
+2026-06-04 03:48:13.063 +02:00 [INF] HTTP GET /api/users/me responded 200 in 7.4210 ms
+2026-06-04 03:48:13.067 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:48:13.068 +02:00 [INF] User info for admin 1
+2026-06-04 03:48:13.069 +02:00 [INF] HTTP GET /api/users/me responded 200 in 4.2505 ms
+2026-06-04 03:48:13.073 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:48:13.074 +02:00 [INF] User info for admin 1
+2026-06-04 03:48:13.075 +02:00 [INF] HTTP GET /api/users/me responded 200 in 3.2609 ms
+2026-06-04 03:52:03.728 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0511 ms
+2026-06-04 03:52:03.728 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0110 ms
+2026-06-04 03:52:03.729 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0118 ms
+2026-06-04 03:52:03.729 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0067 ms
+2026-06-04 03:52:03.733 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:52:03.739 +02:00 [INF] User info for admin 1
+2026-06-04 03:52:03.740 +02:00 [INF] HTTP GET /api/users/me responded 200 in 8.5920 ms
+2026-06-04 03:52:03.743 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:52:03.745 +02:00 [INF] User info for admin 1
+2026-06-04 03:52:03.746 +02:00 [INF] HTTP GET /api/users/me responded 200 in 3.2363 ms
+2026-06-04 03:52:03.749 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:52:03.750 +02:00 [INF] User info for admin 1
+2026-06-04 03:52:03.750 +02:00 [INF] HTTP GET /api/users/me responded 200 in 2.9489 ms
+2026-06-04 03:52:03.753 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:52:03.755 +02:00 [INF] User info for admin 1
+2026-06-04 03:52:03.757 +02:00 [INF] HTTP GET /api/users/me responded 200 in 4.8479 ms
+2026-06-04 03:52:51.719 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0226 ms
+2026-06-04 03:52:51.720 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0206 ms
+2026-06-04 03:52:51.720 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0132 ms
+2026-06-04 03:52:51.722 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0336 ms
+2026-06-04 03:52:51.724 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:52:51.728 +02:00 [INF] User info for admin 1
+2026-06-04 03:52:51.730 +02:00 [INF] HTTP GET /api/users/me responded 200 in 6.6580 ms
+2026-06-04 03:52:51.732 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:52:51.733 +02:00 [INF] User info for admin 1
+2026-06-04 03:52:51.734 +02:00 [INF] HTTP GET /api/users/me responded 200 in 2.7367 ms
+2026-06-04 03:52:51.735 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:52:51.737 +02:00 [INF] User info for admin 1
+2026-06-04 03:52:51.738 +02:00 [INF] HTTP GET /api/users/me responded 200 in 3.3543 ms
+2026-06-04 03:52:51.743 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:52:51.745 +02:00 [INF] User info for admin 1
+2026-06-04 03:52:51.747 +02:00 [INF] HTTP GET /api/users/me responded 200 in 7.1329 ms
+2026-06-04 03:53:09.769 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0139 ms
+2026-06-04 03:53:09.770 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0214 ms
+2026-06-04 03:53:09.779 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0809 ms
+2026-06-04 03:53:09.783 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:53:09.787 +02:00 [INF] User info for admin 1
+2026-06-04 03:53:09.790 +02:00 [INF] HTTP GET /api/users/me responded 200 in 8.4026 ms
+2026-06-04 03:53:09.797 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:53:09.799 +02:00 [INF] User info for admin 1
+2026-06-04 03:53:09.816 +02:00 [INF] HTTP GET /api/users/me responded 200 in 19.8171 ms
+2026-06-04 03:53:09.818 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:53:09.833 +02:00 [INF] User info for admin 1
+2026-06-04 03:53:09.836 +02:00 [INF] HTTP GET /api/users/me responded 200 in 18.9232 ms
+2026-06-04 03:53:09.843 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:53:09.844 +02:00 [INF] User info for admin 1
+2026-06-04 03:53:09.845 +02:00 [INF] HTTP GET /api/users/me responded 200 in 4.7314 ms
+2026-06-04 03:57:57.879 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0236 ms
+2026-06-04 03:57:57.880 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0265 ms
+2026-06-04 03:57:57.881 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0222 ms
+2026-06-04 03:57:57.887 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:57:57.893 +02:00 [INF] User info for admin 1
+2026-06-04 03:57:57.898 +02:00 [INF] HTTP GET /api/users/me responded 200 in 14.7982 ms
+2026-06-04 03:57:57.901 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:57:57.906 +02:00 [INF] User info for admin 1
+2026-06-04 03:57:57.907 +02:00 [INF] HTTP GET /api/users/me responded 200 in 6.5239 ms
+2026-06-04 03:57:57.910 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:57:57.916 +02:00 [INF] User info for admin 1
+2026-06-04 03:57:57.917 +02:00 [INF] HTTP GET /api/users/me responded 200 in 8.5005 ms
+2026-06-04 03:57:57.921 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:57:58.032 +02:00 [INF] User info for admin 1
+2026-06-04 03:57:58.033 +02:00 [INF] HTTP GET /api/users/me responded 200 in 113.8611 ms
+2026-06-04 03:59:52.853 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0510 ms
+2026-06-04 03:59:52.853 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0119 ms
+2026-06-04 03:59:52.857 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0182 ms
+2026-06-04 03:59:52.865 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:59:52.866 +02:00 [INF] User info for admin 1
+2026-06-04 03:59:52.867 +02:00 [INF] HTTP GET /api/users/me responded 200 in 6.5594 ms
+2026-06-04 03:59:52.872 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:59:52.873 +02:00 [INF] User info for admin 1
+2026-06-04 03:59:52.875 +02:00 [INF] HTTP GET /api/users/me responded 200 in 5.2003 ms
+2026-06-04 03:59:52.879 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:59:52.880 +02:00 [INF] User info for admin 1
+2026-06-04 03:59:52.882 +02:00 [INF] HTTP GET /api/users/me responded 200 in 3.8207 ms
+2026-06-04 03:59:52.885 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 03:59:52.887 +02:00 [INF] User info for admin 1
+2026-06-04 03:59:52.889 +02:00 [INF] HTTP GET /api/users/me responded 200 in 4.5856 ms
+2026-06-04 04:00:17.403 +02:00 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.0192 ms
+2026-06-04 04:00:17.531 +02:00 [INF] User 1 admin logged in
+2026-06-04 04:00:17.532 +02:00 [INF] HTTP POST /api/auth/login responded 200 in 126.0183 ms
+2026-06-04 04:00:17.539 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0517 ms
+2026-06-04 04:00:17.543 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:00:17.544 +02:00 [INF] User info for admin 1
+2026-06-04 04:00:17.545 +02:00 [INF] HTTP GET /api/users/me responded 200 in 3.0180 ms
+2026-06-04 04:17:56.298 +02:00 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.0356 ms
+2026-06-04 04:17:56.421 +02:00 [INF] User 1 admin logged in
+2026-06-04 04:17:56.422 +02:00 [INF] HTTP POST /api/auth/login responded 200 in 121.8790 ms
+2026-06-04 04:17:56.430 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0333 ms
+2026-06-04 04:17:56.433 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:17:56.435 +02:00 [INF] User info for admin 1
+2026-06-04 04:17:56.437 +02:00 [INF] HTTP GET /api/users/me responded 200 in 4.1921 ms
+2026-06-04 04:25:30.001 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0363 ms
+2026-06-04 04:25:30.003 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0218 ms
+2026-06-04 04:25:30.013 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:25:30.014 +02:00 [INF] User info for admin 1
+2026-06-04 04:25:30.015 +02:00 [INF] HTTP GET /api/users/me responded 200 in 8.2263 ms
+2026-06-04 04:25:30.020 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:25:30.022 +02:00 [INF] User info for admin 1
+2026-06-04 04:25:30.023 +02:00 [INF] HTTP GET /api/users/me responded 200 in 3.2521 ms
+2026-06-04 04:25:30.036 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:25:30.062 +02:00 [INF] User info for admin 1
+2026-06-04 04:25:30.063 +02:00 [INF] HTTP GET /api/users/me responded 200 in 35.1453 ms
+2026-06-04 04:25:30.082 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:25:30.087 +02:00 [INF] User info for admin 1
+2026-06-04 04:25:30.087 +02:00 [INF] HTTP GET /api/users/me responded 200 in 5.8519 ms
+2026-06-04 04:31:30.818 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0808 ms
+2026-06-04 04:31:30.819 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0175 ms
+2026-06-04 04:31:30.820 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.1226 ms
+2026-06-04 04:31:30.822 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0207 ms
+2026-06-04 04:31:30.833 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:31:30.847 +02:00 [INF] User info for admin 1
+2026-06-04 04:31:30.851 +02:00 [INF] HTTP GET /api/users/me responded 200 in 19.3686 ms
+2026-06-04 04:31:30.853 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:31:30.856 +02:00 [INF] User info for admin 1
+2026-06-04 04:31:30.859 +02:00 [INF] HTTP GET /api/users/me responded 200 in 7.0859 ms
+2026-06-04 04:31:30.869 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:31:30.871 +02:00 [INF] User info for admin 1
+2026-06-04 04:31:30.872 +02:00 [INF] HTTP GET /api/users/me responded 200 in 4.0009 ms
+2026-06-04 04:31:30.875 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:31:30.879 +02:00 [INF] User info for admin 1
+2026-06-04 04:31:30.880 +02:00 [INF] HTTP GET /api/users/me responded 200 in 6.3423 ms
+2026-06-04 04:31:45.910 +02:00 [INF] HTTP OPTIONS /api/auth/login responded 204 in 0.0207 ms
+2026-06-04 04:31:46.029 +02:00 [INF] User 1 admin logged in
+2026-06-04 04:31:46.030 +02:00 [INF] HTTP POST /api/auth/login responded 200 in 118.2518 ms
+2026-06-04 04:31:46.036 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0256 ms
+2026-06-04 04:31:46.041 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:31:46.045 +02:00 [INF] User info for admin 1
+2026-06-04 04:31:46.046 +02:00 [INF] HTTP GET /api/users/me responded 200 in 5.4531 ms
+2026-06-04 04:35:53.985 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0283 ms
+2026-06-04 04:35:53.987 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0286 ms
+2026-06-04 04:35:53.991 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:35:53.994 +02:00 [INF] User info for admin 1
+2026-06-04 04:35:53.995 +02:00 [INF] HTTP GET /api/users/me responded 200 in 4.6043 ms
+2026-06-04 04:35:54.001 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:35:54.005 +02:00 [INF] User info for admin 1
+2026-06-04 04:35:54.008 +02:00 [INF] HTTP GET /api/users/me responded 200 in 7.3234 ms
+2026-06-04 04:35:54.012 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:35:54.013 +02:00 [INF] User info for admin 1
+2026-06-04 04:35:54.016 +02:00 [INF] HTTP GET /api/users/me responded 200 in 4.1674 ms
+2026-06-04 04:35:54.021 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:35:54.022 +02:00 [INF] User info for admin 1
+2026-06-04 04:35:54.023 +02:00 [INF] HTTP GET /api/users/me responded 200 in 3.7599 ms
+2026-06-04 04:37:39.843 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0221 ms
+2026-06-04 04:37:39.844 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0761 ms
+2026-06-04 04:37:39.849 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:37:39.851 +02:00 [INF] User info for admin 1
+2026-06-04 04:37:39.852 +02:00 [INF] HTTP GET /api/users/me responded 200 in 4.9012 ms
+2026-06-04 04:37:39.855 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:37:39.857 +02:00 [INF] User info for admin 1
+2026-06-04 04:37:39.858 +02:00 [INF] HTTP GET /api/users/me responded 200 in 4.4376 ms
+2026-06-04 04:37:39.860 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:37:39.862 +02:00 [INF] User info for admin 1
+2026-06-04 04:37:39.863 +02:00 [INF] HTTP GET /api/users/me responded 200 in 4.6679 ms
+2026-06-04 04:37:39.868 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:37:39.869 +02:00 [INF] User info for admin 1
+2026-06-04 04:37:39.874 +02:00 [INF] HTTP GET /api/users/me responded 200 in 6.4119 ms
+2026-06-04 04:38:34.807 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0214 ms
+2026-06-04 04:38:34.808 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0123 ms
+2026-06-04 04:38:34.809 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0416 ms
+2026-06-04 04:38:34.810 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0228 ms
+2026-06-04 04:38:34.813 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:38:34.819 +02:00 [INF] User info for admin 1
+2026-06-04 04:38:34.820 +02:00 [INF] HTTP GET /api/users/me responded 200 in 8.3047 ms
+2026-06-04 04:38:34.824 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:38:34.825 +02:00 [INF] User info for admin 1
+2026-06-04 04:38:34.827 +02:00 [INF] HTTP GET /api/users/me responded 200 in 3.5832 ms
+2026-06-04 04:38:34.830 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:38:34.835 +02:00 [INF] User info for admin 1
+2026-06-04 04:38:34.836 +02:00 [INF] HTTP GET /api/users/me responded 200 in 6.3743 ms
+2026-06-04 04:38:34.840 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:38:34.844 +02:00 [INF] User info for admin 1
+2026-06-04 04:38:34.845 +02:00 [INF] HTTP GET /api/users/me responded 200 in 6.1515 ms
+2026-06-04 04:38:55.762 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0202 ms
+2026-06-04 04:38:55.763 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0112 ms
+2026-06-04 04:38:55.764 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0118 ms
+2026-06-04 04:38:55.764 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0097 ms
+2026-06-04 04:38:55.772 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:38:55.777 +02:00 [INF] User info for admin 1
+2026-06-04 04:38:55.778 +02:00 [INF] HTTP GET /api/users/me responded 200 in 9.2930 ms
+2026-06-04 04:38:55.785 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:38:55.786 +02:00 [INF] User info for admin 1
+2026-06-04 04:38:55.790 +02:00 [INF] HTTP GET /api/users/me responded 200 in 5.9410 ms
+2026-06-04 04:38:55.797 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:38:55.800 +02:00 [INF] User info for admin 1
+2026-06-04 04:38:55.801 +02:00 [INF] HTTP GET /api/users/me responded 200 in 4.8623 ms
+2026-06-04 04:38:55.809 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:38:55.817 +02:00 [INF] User info for admin 1
+2026-06-04 04:38:55.820 +02:00 [INF] HTTP GET /api/users/me responded 200 in 17.7643 ms
+2026-06-04 04:40:59.803 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0211 ms
+2026-06-04 04:40:59.804 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0134 ms
+2026-06-04 04:40:59.809 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0171 ms
+2026-06-04 04:40:59.816 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:40:59.824 +02:00 [INF] User info for admin 1
+2026-06-04 04:40:59.825 +02:00 [INF] HTTP GET /api/users/me responded 200 in 10.1349 ms
+2026-06-04 04:40:59.827 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:40:59.834 +02:00 [INF] User info for admin 1
+2026-06-04 04:40:59.842 +02:00 [INF] HTTP GET /api/users/me responded 200 in 15.4481 ms
+2026-06-04 04:40:59.846 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:40:59.862 +02:00 [INF] User info for admin 1
+2026-06-04 04:40:59.863 +02:00 [INF] HTTP GET /api/users/me responded 200 in 17.4519 ms
+2026-06-04 04:40:59.868 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:40:59.876 +02:00 [INF] User info for admin 1
+2026-06-04 04:40:59.879 +02:00 [INF] HTTP GET /api/users/me responded 200 in 11.3749 ms
+2026-06-04 04:43:15.772 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0612 ms
+2026-06-04 04:43:15.773 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0344 ms
+2026-06-04 04:43:15.774 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0126 ms
+2026-06-04 04:43:15.776 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:43:15.779 +02:00 [INF] User info for admin 1
+2026-06-04 04:43:15.780 +02:00 [INF] HTTP GET /api/users/me responded 200 in 4.7264 ms
+2026-06-04 04:43:15.782 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:43:15.785 +02:00 [INF] User info for admin 1
+2026-06-04 04:43:15.785 +02:00 [INF] HTTP GET /api/users/me responded 200 in 4.3939 ms
+2026-06-04 04:43:15.787 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:43:15.789 +02:00 [INF] User info for admin 1
+2026-06-04 04:43:15.790 +02:00 [INF] HTTP GET /api/users/me responded 200 in 3.9285 ms
+2026-06-04 04:43:15.792 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:43:15.795 +02:00 [INF] User info for admin 1
+2026-06-04 04:43:15.796 +02:00 [INF] HTTP GET /api/users/me responded 200 in 4.7615 ms
+2026-06-04 04:43:23.732 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0232 ms
+2026-06-04 04:43:23.735 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0178 ms
+2026-06-04 04:43:23.732 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0109 ms
+2026-06-04 04:43:23.737 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:43:23.743 +02:00 [INF] User info for admin 1
+2026-06-04 04:43:23.744 +02:00 [INF] HTTP GET /api/users/me responded 200 in 8.2253 ms
+2026-06-04 04:43:23.748 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:43:23.750 +02:00 [INF] User info for admin 1
+2026-06-04 04:43:23.752 +02:00 [INF] HTTP GET /api/users/me responded 200 in 4.9101 ms
+2026-06-04 04:43:23.755 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:43:23.762 +02:00 [INF] User info for admin 1
+2026-06-04 04:43:23.763 +02:00 [INF] HTTP GET /api/users/me responded 200 in 9.2301 ms
+2026-06-04 04:43:23.765 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:43:23.766 +02:00 [INF] User info for admin 1
+2026-06-04 04:43:23.768 +02:00 [INF] HTTP GET /api/users/me responded 200 in 3.7336 ms
+2026-06-04 04:54:37.761 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0253 ms
+2026-06-04 04:54:37.764 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0914 ms
+2026-06-04 04:54:37.769 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:54:37.772 +02:00 [INF] User info for admin 1
+2026-06-04 04:54:37.774 +02:00 [INF] HTTP GET /api/users/me responded 200 in 8.8102 ms
+2026-06-04 04:54:37.776 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:54:37.777 +02:00 [INF] User info for admin 1
+2026-06-04 04:54:37.779 +02:00 [INF] HTTP GET /api/users/me responded 200 in 4.3141 ms
+2026-06-04 04:54:37.781 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:54:37.782 +02:00 [INF] User info for admin 1
+2026-06-04 04:54:37.783 +02:00 [INF] HTTP GET /api/users/me responded 200 in 3.2312 ms
+2026-06-04 04:54:37.787 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:54:37.789 +02:00 [INF] User info for admin 1
+2026-06-04 04:54:37.790 +02:00 [INF] HTTP GET /api/users/me responded 200 in 4.8272 ms
+2026-06-04 04:55:15.823 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0214 ms
+2026-06-04 04:55:15.824 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0231 ms
+2026-06-04 04:55:15.827 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0205 ms
+2026-06-04 04:55:15.829 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:55:15.833 +02:00 [INF] User info for admin 1
+2026-06-04 04:55:15.834 +02:00 [INF] HTTP GET /api/users/me responded 200 in 5.6553 ms
+2026-06-04 04:55:15.837 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:55:15.841 +02:00 [INF] User info for admin 1
+2026-06-04 04:55:15.843 +02:00 [INF] HTTP GET /api/users/me responded 200 in 6.3007 ms
+2026-06-04 04:55:15.846 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:55:15.849 +02:00 [INF] User info for admin 1
+2026-06-04 04:55:15.850 +02:00 [INF] HTTP GET /api/users/me responded 200 in 5.9778 ms
+2026-06-04 04:55:15.853 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:55:15.854 +02:00 [INF] User info for admin 1
+2026-06-04 04:55:15.855 +02:00 [INF] HTTP GET /api/users/me responded 200 in 3.1917 ms
+2026-06-04 04:55:35.729 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0128 ms
+2026-06-04 04:55:35.729 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0115 ms
+2026-06-04 04:55:35.730 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0201 ms
+2026-06-04 04:55:35.732 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0162 ms
+2026-06-04 04:55:35.738 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:55:35.742 +02:00 [INF] User info for admin 1
+2026-06-04 04:55:35.743 +02:00 [INF] HTTP GET /api/users/me responded 200 in 6.3735 ms
+2026-06-04 04:55:35.746 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:55:35.748 +02:00 [INF] User info for admin 1
+2026-06-04 04:55:35.749 +02:00 [INF] HTTP GET /api/users/me responded 200 in 4.2604 ms
+2026-06-04 04:55:35.752 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:55:35.754 +02:00 [INF] User info for admin 1
+2026-06-04 04:55:35.755 +02:00 [INF] HTTP GET /api/users/me responded 200 in 3.6245 ms
+2026-06-04 04:55:35.761 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:55:35.762 +02:00 [INF] User info for admin 1
+2026-06-04 04:55:35.763 +02:00 [INF] HTTP GET /api/users/me responded 200 in 2.7954 ms
+2026-06-04 04:57:06.728 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0210 ms
+2026-06-04 04:57:06.729 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0126 ms
+2026-06-04 04:57:06.731 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0167 ms
+2026-06-04 04:57:06.732 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:57:06.735 +02:00 [INF] User info for admin 1
+2026-06-04 04:57:06.737 +02:00 [INF] HTTP GET /api/users/me responded 200 in 5.1496 ms
+2026-06-04 04:57:06.739 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:57:06.742 +02:00 [INF] User info for admin 1
+2026-06-04 04:57:06.743 +02:00 [INF] HTTP GET /api/users/me responded 200 in 4.8591 ms
+2026-06-04 04:57:06.745 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:57:06.746 +02:00 [INF] User info for admin 1
+2026-06-04 04:57:06.747 +02:00 [INF] HTTP GET /api/users/me responded 200 in 2.7230 ms
+2026-06-04 04:57:06.749 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:57:06.750 +02:00 [INF] User info for admin 1
+2026-06-04 04:57:06.751 +02:00 [INF] HTTP GET /api/users/me responded 200 in 2.5008 ms
+2026-06-04 04:57:36.716 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0144 ms
+2026-06-04 04:57:36.716 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0115 ms
+2026-06-04 04:57:36.716 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0251 ms
+2026-06-04 04:57:36.716 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0054 ms
+2026-06-04 04:57:36.722 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:57:36.727 +02:00 [INF] User info for admin 1
+2026-06-04 04:57:36.728 +02:00 [INF] HTTP GET /api/users/me responded 200 in 8.0703 ms
+2026-06-04 04:57:36.730 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:57:36.731 +02:00 [INF] User info for admin 1
+2026-06-04 04:57:36.732 +02:00 [INF] HTTP GET /api/users/me responded 200 in 2.8443 ms
+2026-06-04 04:57:36.734 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:57:36.737 +02:00 [INF] User info for admin 1
+2026-06-04 04:57:36.738 +02:00 [INF] HTTP GET /api/users/me responded 200 in 4.5556 ms
+2026-06-04 04:57:36.740 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:57:36.742 +02:00 [INF] User info for admin 1
+2026-06-04 04:57:36.743 +02:00 [INF] HTTP GET /api/users/me responded 200 in 4.0114 ms
+2026-06-04 04:58:16.913 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0327 ms
+2026-06-04 04:58:16.922 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:58:16.924 +02:00 [INF] User info for admin 1
+2026-06-04 04:58:16.925 +02:00 [INF] HTTP GET /api/users/me responded 200 in 3.4626 ms
+2026-06-04 04:58:16.926 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:58:16.927 +02:00 [INF] User info for admin 1
+2026-06-04 04:58:16.929 +02:00 [INF] HTTP GET /api/users/me responded 200 in 3.0042 ms
+2026-06-04 04:58:16.932 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:58:16.934 +02:00 [INF] User info for admin 1
+2026-06-04 04:58:16.935 +02:00 [INF] HTTP GET /api/users/me responded 200 in 3.9120 ms
+2026-06-04 04:58:16.939 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:58:16.941 +02:00 [INF] User info for admin 1
+2026-06-04 04:58:16.942 +02:00 [INF] HTTP GET /api/users/me responded 200 in 3.9780 ms
+2026-06-04 04:59:03.768 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0139 ms
+2026-06-04 04:59:03.768 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0080 ms
+2026-06-04 04:59:03.769 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0127 ms
+2026-06-04 04:59:03.770 +02:00 [INF] HTTP OPTIONS /api/users/me responded 204 in 0.0120 ms
+2026-06-04 04:59:03.772 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:59:03.775 +02:00 [INF] User info for admin 1
+2026-06-04 04:59:03.776 +02:00 [INF] HTTP GET /api/users/me responded 200 in 5.2968 ms
+2026-06-04 04:59:03.779 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:59:03.781 +02:00 [INF] User info for admin 1
+2026-06-04 04:59:03.782 +02:00 [INF] HTTP GET /api/users/me responded 200 in 3.1602 ms
+2026-06-04 04:59:03.786 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:59:03.788 +02:00 [INF] User info for admin 1
+2026-06-04 04:59:03.790 +02:00 [INF] HTTP GET /api/users/me responded 200 in 6.1366 ms
+2026-06-04 04:59:03.792 +02:00 [INF] User 1 admin fetched from DB
+2026-06-04 04:59:03.794 +02:00 [INF] User info for admin 1
+2026-06-04 04:59:03.795 +02:00 [INF] HTTP GET /api/users/me responded 200 in 4.4868 ms
